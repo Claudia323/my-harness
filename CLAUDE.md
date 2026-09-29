@@ -12,7 +12,7 @@
 - 검증: @docs/verification.md
 - 디자인 원문: docs/design.md / 판정 규칙 SSOT: rules/rules.json
 
-## 트리거
+## 트리거 (`/harness <말>`로도 같다. 인자 없이 `/harness`는 사용법·진행 상황)
 - "<플로우> 플로우 돌려줘" → runs/<slug>/ 생성 또는 재개
 - "H1 승인 Y Y Y" / "H1 반려: <사유>"
 - "판정만 <slug> <gate>" / "상태 <slug>"
