@@ -1,0 +1,233 @@
+{
+ "slug": "sale-request",
+ "mode": "S4",
+ "frames": [
+  {
+   "id": "2:1",
+   "name": "sale-request",
+   "type": "FRAME",
+   "width": 390,
+   "height": 844,
+   "fills": [
+    "#ffffff"
+   ],
+   "strokes": [],
+   "radius": 0,
+   "effects": [],
+   "bound": {
+    "fills": true,
+    "radius": true
+   },
+   "padding": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "itemSpacing": 24,
+   "nodes": [
+    {
+     "id": "2:1-btn",
+     "name": "cta",
+     "type": "INSTANCE",
+     "component": "button-primary",
+     "width": 358,
+     "height": 48,
+     "fills": [
+      "#141414"
+     ],
+     "strokes": [],
+     "radius": 9999,
+     "effects": [],
+     "bound": {
+      "fills": true,
+      "radius": true
+     }
+    },
+    {
+     "id": "2:1-card",
+     "name": "asset-card",
+     "type": "FRAME",
+     "width": 358,
+     "height": 200,
+     "fills": [
+      "#ffffff"
+     ],
+     "strokes": [
+      "#f0f0f0"
+     ],
+     "radius": 24,
+     "effects": [],
+     "bound": {
+      "fills": true,
+      "radius": true
+     },
+     "padding": [
+      24,
+      24,
+      24,
+      24
+     ],
+     "itemSpacing": 8
+    },
+    {
+     "id": "2:1-badge",
+     "name": "badge",
+     "type": "INSTANCE",
+     "component": "badge-overlay",
+     "width": 60,
+     "height": 24,
+     "fills": [
+      "rgba(115,115,115,0.56)"
+     ],
+     "strokes": [],
+     "radius": 12,
+     "effects": [],
+     "bound": {
+      "fills": true,
+      "radius": true
+     }
+    },
+    {
+     "id": "2:1-title",
+     "name": "title",
+     "type": "TEXT",
+     "width": 358,
+     "height": 36,
+     "fills": [
+      "#141414"
+     ],
+     "strokes": [],
+     "effects": [],
+     "bound": {
+      "fills": true,
+      "radius": true
+     },
+     "text": "판매 신청",
+     "fontFamily": "Pretendard",
+     "fontWeight": 700,
+     "fontSize": 28,
+     "letterSpacing": 0
+    }
+   ]
+  },
+  {
+   "id": "2:2",
+   "name": "sale-request",
+   "type": "FRAME",
+   "width": 390,
+   "height": 844,
+   "fills": [
+    "#ffffff"
+   ],
+   "strokes": [],
+   "radius": 0,
+   "effects": [],
+   "bound": {
+    "fills": true,
+    "radius": true
+   },
+   "padding": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "itemSpacing": 24,
+   "nodes": [
+    {
+     "id": "2:2-btn",
+     "name": "cta",
+     "type": "INSTANCE",
+     "component": "button-primary",
+     "width": 358,
+     "height": 48,
+     "fills": [
+      "#141414"
+     ],
+     "strokes": [],
+     "radius": 9999,
+     "effects": [],
+     "bound": {
+      "fills": true,
+      "radius": true
+     }
+    },
+    {
+     "id": "2:2-card",
+     "name": "asset-card",
+     "type": "FRAME",
+     "width": 358,
+     "height": 200,
+     "fills": [
+      "#ffffff"
+     ],
+     "strokes": [
+      "#f0f0f0"
+     ],
+     "radius": 24,
+     "effects": [],
+     "bound": {
+      "fills": true,
+      "radius": true
+     },
+     "padding": [
+      24,
+      24,
+      24,
+      24
+     ],
+     "itemSpacing": 8
+    },
+    {
+     "id": "2:2-badge",
+     "name": "badge",
+     "type": "INSTANCE",
+     "component": "badge-overlay",
+     "width": 60,
+     "height": 24,
+     "fills": [
+      "rgba(115,115,115,0.56)"
+     ],
+     "strokes": [],
+     "radius": 12,
+     "effects": [],
+     "bound": {
+      "fills": true,
+      "radius": true
+     }
+    },
+    {
+     "id": "2:2-title",
+     "name": "title",
+     "type": "TEXT",
+     "width": 358,
+     "height": 36,
+     "fills": [
+      "#141414"
+     ],
+     "strokes": [],
+     "effects": [],
+     "bound": {
+      "fills": true,
+      "radius": true
+     },
+     "text": "판매 신청",
+     "fontFamily": "Pretendard",
+     "fontWeight": 700,
+     "fontSize": 28,
+     "letterSpacing": 0
+    }
+   ]
+  }
+ ],
+ "variables": [
+  "colors/ink",
+  "colors/canvas",
+  "rounded/md"
+ ],
+ "components": [
+  "button-primary",
+  "badge-overlay"
+ ]
+}

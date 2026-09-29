@@ -24,6 +24,7 @@ Source pages: home, pricing, awards, signup.
 
 - **Ink Black** (`{colors.primary}` — #141414): The brand color. Fills every primary CTA pill, the footer band, and all display typography. Huddling's identity is this near-black, softened just off pure black to sit comfortably next to photography.
 - **Electric Blue** (`{colors.accent}` — #0066ff): The only chromatic accent in the system. Reserved for commercial emphasis — the "Popular" pricing badge and savings callouts. Never used decoratively, never used for CTAs.
+- **On Primary** (`{colors.on-primary}` — #ffffff): Text and marks on `{colors.primary}` / `{colors.accent}` fills.
 
 ### Surface
 
@@ -283,7 +284,7 @@ The system is essentially shadow-free: no drop shadows appear on any card, butto
 
 - Properties: `backgroundColor`, `rounded`, `padding`
 
-**`ex-modal-card`** — Modal dialog surface — same chrome as feature-card with elevated shadow.
+**`ex-modal-card`** — Modal dialog surface — same chrome as feature-card with 1px `{colors.hairline-soft}` outline, no shadow.
 
 - Properties: `backgroundColor`, `rounded`, `padding`
 
@@ -291,7 +292,7 @@ The system is essentially shadow-free: no drop shadows appear on any card, butto
 
 - Properties: `backgroundColor`, `rounded`, `padding`, `captionTypography`
 
-**`ex-toast`** — Toast notification surface — feature-card shape + medium shadow.
+**`ex-toast`** — Toast notification surface — feature-card shape + 1px `{colors.hairline-soft}` outline, no shadow.
 
 - Properties: `backgroundColor`, `rounded`, `padding`, `typography`
 
