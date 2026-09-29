@@ -19,11 +19,11 @@
 
 ## 실행 순서
 1. 트리거에서 slug를 정한다 (roles.md 표).
-2. runs/<slug>/gate-log.md의 마지막 PASS를 읽고 다음 단계를 정한다. 없으면 S1.
-3. 단계 에이전트 호출: S1 researcher → S2 planner → S3·S4 designer
-4. 단계가 끝날 때마다 judge 호출 → 결과 JSON을 gate-log.md에 기록
-5. FAIL → pipeline.md의 복귀 단계로. 같은 단계 복귀가 3회를 넘으면 중단하고 사람에게 보고
-6. S3 PASS → H1 승인을 요청하고 멈춘다. 사람의 답을 받기 전에는 S4로 가지 않는다.
+2. `python3 scripts/judge.py --next <slug>`로 다음 단계를 정한다. 스스로 추론하지 않는다.
+3. 단계 에이전트 호출: S1 researcher → S2 planner → S3·S4 designer (재시도면 직전 violations 전달)
+4. 단계가 끝날 때마다 judge 에이전트 호출 → 결과를 gate-log.md에 한 행 추가 (형식: artifacts.md)
+5. 다시 2번으로. `next`가 `STOP`이면 중단하고 사람에게 보고, `H1`이면 승인을 요청하고 멈춘다.
+6. H1 답을 받기 전에는 S4로 가지 않는다.
 7. G1 PASS → s1-research.md를 기획자에게 참고로 공유 (기다리지 않음)
 
 ## 오케스트레이터 금지 사항
@@ -31,10 +31,10 @@
 - Figma를 직접 수정하지 않는다
 - judge 결과를 해석해서 PASS로 바꾸지 않는다
 - H1 승인을 대신하지 않는다
-- gate-log.md는 오케스트레이터만 쓴다
+- gate-log.md는 오케스트레이터만 쓴다 (추가만, 수정·삭제 금지)
 
 ## Figma
-- 작업 파일: (첫 실행 시 designer가 "Huddling Harness" 생성 후 URL 기입)
+- 작업 파일 URL: runs/figma-file.txt. 없으면 designer가 "Huddling Harness"를 만들어 보고하고, 오케스트레이터가 기록한다.
 - 페이지: 플로우당 1개(이름 = slug), 토큰·컴포넌트는 _system 페이지
 
 ## 하네스를 고칠 때

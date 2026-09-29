@@ -28,6 +28,11 @@ tools: Read, Write, Edit, mcp__claude_ai_uibowl__search_ui_patterns, mcp__claude
 - 반영: <우리 서비스에 가져올 점>
 ```
 
+## 링크 규칙 (G1이 검사)
+- 링크는 uibowl 결과의 그룹 `ui_url`(`https://uibowl.io/name/<앱>?...`)을 그대로 쓴다.
+- 제목에 링크 속 앱 이름을 그대로 쓴다. 같은 링크를 두 번 쓰지 않는다.
+- uibowl 무료 등급은 검색 1회당 최대 3건이다. 개수를 채우려면 검색어·패턴을 바꿔 여러 번 검색한다.
+
 ## 금지
 - 이 파일 외의 파일을 쓰거나 고치지 않는다.
 - uibowl 결과에 없는 링크나 화면을 지어내지 않는다.

@@ -25,12 +25,12 @@
 - 관찰: 단계형 폼
 - 반영: 진행 단계를 상단에 표시
 
-## 6. 크몽 — 판매 신청 화면
-- 링크: https://uibowl.io/name/%ED%81%AC%EB%AA%BD?patterns=%EA%B0%84%ED%8E%B8%EA%B2%B0%EC%A0%9C
+## 6. 토스 — 판매 신청 화면
+- 링크: https://uibowl.io/name/%ED%86%A0%EC%8A%A4?patterns=%EA%B0%84%ED%8E%B8%EA%B2%B0%EC%A0%9C
 - 관찰: 단계형 폼
 - 반영: 진행 단계를 상단에 표시
 
-## 7. 탈잉 — 판매 신청 화면
-- 링크: https://uibowl.io/name/%ED%83%88%EC%9E%89?patterns=%EA%B0%84%ED%8E%B8%EA%B2%B0%EC%A0%9C
+## 7. 가짜앱 — 판매 신청 화면
+- 링크: https://uibowl.io/name/%ED%81%AC%EB%AA%BD?patterns=%EA%B0%84%ED%8E%B8%EA%B2%B0%EC%A0%9C
 - 관찰: 단계형 폼
 - 반영: 진행 단계를 상단에 표시

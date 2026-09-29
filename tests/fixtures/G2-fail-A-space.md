@@ -7,8 +7,8 @@
 - 권한: paid
 - 자산 상태: draft, pending, revision_requested, approved, rejected
 
-## 화면: 판매 신청 완료
+## 화면: 판매신청 완료
 - 목적: 검수 대기 상태를 안내한다
 - 구성 요소: 상태 배지, 안내 문구
 - 상태: 기본
-- 권한: seller
+- 권한: paid
